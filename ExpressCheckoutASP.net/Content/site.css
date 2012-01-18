@@ -1,0 +1,174 @@
+html,*{
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: Helvetica;
+}
+
+.main-width {
+	width: 900px;
+	margin:0px auto;
+}
+
+.clear {
+	clear:both;
+}
+
+a.button {
+	display: block;
+	padding: 2px 8px;
+	border-radius: 4px;
+	border: 1px solid #1D5B81;
+	background: #1A81B0;
+	font-weight: bold;
+	text-decoration: none;
+	text-align:center;
+	color: #000;
+}
+
+#header {
+	background: #E1E1E1;
+	padding: 10px 0;
+	border-bottom:2px solid #1D5B81;
+}
+
+	#header h1, #header p {
+		color: #1D5B81;
+	}
+	
+	#header h1 {
+		font-size: 1.2em;
+	}
+	
+	#header p {
+		font-size: 0.8em;
+	}
+	
+		#header p.paypal {
+			float: right;
+		}
+	
+	#header div.branding {
+		float:left;
+		padding-top: 18px;
+	}
+
+#body {
+}
+
+	#body h2 {
+		color: #1D5B81;
+		font-size: 1.2em;
+		padding: 8px 0;
+		margin-top: 20px;
+	}
+
+	#body ul li {
+		list-style:none;
+	}
+	
+	#body .menu {
+		display:block;
+		background: #1D5B81;
+		height: 30px;
+	}
+	
+	#body .nav li {
+		float:left;
+	}
+	
+	#body .nav a {
+		display:block;
+		text-decoration: none;
+		padding: 4px;
+		color: #fff;
+	}
+	
+	#body .nav a:hover {
+		text-decoration: underline;
+	}
+		
+	#body .products {
+		margin-top: 20px;
+	}
+		
+		#body .products li {
+			display:block;
+			width: 190px;
+			height: 280px;
+			float:left;
+			text-align: center;
+			margin: 0px 2px;
+		}
+		
+			#body .products li dt {
+				font-size: 0.9em;
+				font-weight: bold;
+				height: 40px;
+			}
+			
+			#body .products li dd {
+				font-size: 0.6em;
+			}
+			
+				#body .products li dd.price {
+					font-weight: bold;
+					font-size: 1.1em;
+					color: #663333;
+					padding-top: 6px;
+				}
+
+#body .cart {
+	border:0px none;
+	width:inherit;
+}
+
+	#body .cart thead {
+		background: #1D5B81;
+		color: #FFF;
+	}
+	
+	#body .cart thead th {
+		padding: 6px 0;
+	}
+
+	#body .cart .image {
+		width: 50px;
+	}
+	
+	#body .cart td {
+		vertical-align: top;
+		padding: 4px 0;
+	}
+
+	#body .cart .qty {
+		text-align:center;
+	}
+	
+	#body .cart tbody .price,#body .cart tbody .total {
+		text-align:right;
+		font-weight:bold;
+	}
+
+#body .pay {
+	float:right;
+}
+
+tfoot {
+	background: #E1E1E1;
+}
+
+#footer table {
+	width: inherit;
+	margin-top: 50px;
+}
+
+.shipping-values {
+	display:block;
+	width:254px;
+	border:1px solid #999;
+	background: #FFF;
+	margin:8px 0px 0px 38px;
+	border-radius:8px;
+	padding:8px;
+}
