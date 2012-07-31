@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <title>PayPal Code Sample</title>
+    <meta name="description" content="PayPal Express Checkout com MVC ASP.net e C#" />
+    <link rel="stylesheet" type="text/css" href="/Content/site.css" />
+    <script src="/Scripts/jquery.js"></script>
+    <script src="/Scripts/cart.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class="main-width">
+        <div class="branding">
+            h1>PayPal Code Sample</h1>
+            <p>PayPal Express Checkout com MVC ASP.net e C#</p>
+        </div>
+        <p class="paypal">
+        <a href="#" onclick="javascript:window.open('https://www.paypal.com/br/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');">
+        <img src="https://www.paypal-brasil.com.br/logocenter/util/img/banners/btestesiteaceita.png" border="0" alt="Imagens de solução" />
+        </a>
+        </p>
+        <div class="clear"></div>
+    </div>
+</div>
+<div id="body">
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+    </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>
